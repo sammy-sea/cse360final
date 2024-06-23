@@ -8,7 +8,7 @@ public class  Examination {
     private Date date;
 
 
-    public Examination(String patientId, Date date, ArrayList<Note> doctorNotes, ArrayList<Note> nurseNotes) {
+    public Examination(String patientId, Date date) {
         this.patientId = patientId;
         this.date = date;
 
