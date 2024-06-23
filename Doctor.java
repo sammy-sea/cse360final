@@ -13,4 +13,15 @@ public class Doctor extends Account {
     }
 
 //opperations
-  }
+     public Examination conductPhysicalExamination(String patientId) {
+        return null;
+    }
+
+    public History viewPatientHistory(String patientId) {
+        return null;
+    }
+
+    public Message sendMessage(String accountId) {
+        return null;
+    }
+}
