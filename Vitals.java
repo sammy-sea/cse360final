@@ -1,3 +1,5 @@
+package com.example.cse360project;
+
 import java.util.Date;
 
 public class Vitals {
