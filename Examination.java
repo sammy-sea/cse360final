@@ -25,11 +25,4 @@ public class  Examination {
         return date;
     }
 
-    public ArrayList<Note> getDoctorNotes() {
-        return doctorNotes;
-    }
-
-    public ArrayList<Note> getNurseNotes() {
-        return nurseNotes;
-    }
 }
