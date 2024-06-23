@@ -12,6 +12,20 @@ public class Nurse extends Account {
         this.patientIds = patientIds;
     }
 
-    // todo Operations
+    // Operations
+    public Vitals recordVitals(String patientId) {
+        return null;
+    }
 
+    public History viewPatientHistory(String patientId) {
+        return null;
+    }
+
+    public Examination conductPhysicalExamination(String patientId) {
+        return null;
+    }
+
+    public Message sendMessage(String accountId) {
+        return null;
+    }
 }
