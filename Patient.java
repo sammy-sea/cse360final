@@ -20,4 +20,34 @@ class Patient extends Account {
     }
 
     // Operations
+    public String getInsuranceNumber() {
+        return insuranceNumber;
+    }
+
+    public String getPharmacy() {
+        return pharmacy;
+    }
+
+    public String getDoctorId() {
+        return doctorId;
+    }
+
+    public ArrayList<String> getNurseIds() {
+        return nurseIds;
+    }
+
+    public Message sendMessage(String accountId) {
+        // Implementation
+        return null;
+    }
+
+    public ArrayList<Examination> viewExaminationHistory() {
+        // Implementation
+        return null;
+    }
+
+    public Examination getExamination(String examinationId) {
+        // Implementation
+        return null;
+    }
 }
